@@ -1,1 +1,70 @@
-# Documente-CUB
+# Editare si Comentarii pentru Documentele din CUB
+
+Acest repository este un template și un tutorial pentru echipele de lucru din CUB.
+
+Poate fi folosit pentru a edita și face review pentru documentele centrului.
+
+# Cuprins
+
+- [Cum se propun modificări?](#cum-se-propun-modificări)
+- [Cum se fac comentarii la modficările propuse?](#cum-se-fac-comentarii-la-modificări-propuse)
+- [Mulțumiri](#mulțumiri)
+
+
+## Cum se propun modificări? 
+
+Pentru fiecare modificare sau set de modificări, se creează un `branch` nou din `main` - care este branch-ul de referință. 
+
+În drop-down-ul din stânga trebuie să fie selectat `main`, și apoi se pune numele unui branch nou (e important să nu mai existe deja același branch).
+
+Se alege `Create branch: <branch_name> from 'main'`
+  
+![Screenshot 2022-01-30 131439](https://user-images.githubusercontent.com/2837718/151697270-9bdf13ba-15cd-40f9-86c6-e121ac514f15.png)
+
+Dacă creați un branch nou, el va fi selectat apoi automat. 
+
+Dacă vă întoarceți pe Github ulterior, trebuie să vă asigurați că branch-ul vostru este selectat în drop-down-ul din stânga, și dacă nu e, să-l selectați înainte să faceți modificări.
+  
+![image](https://user-images.githubusercontent.com/2837718/151697333-df51e9d4-4b6d-4907-a086-a675e4911a3d.png)
+
+Apoi, în branch-ul vostru, selectați fișierul în care veți să propuneți modificări (sau selectați Add file > Create new file din meniul din dreapta drop-down-ului pentru branch-uri). 
+
+Odată deschis, aveți un buton de editare:
+  
+**musai musai să vă asigurați că sunteți pe branch-ul vostru, altfel pot apărea necazuri**
+  
+![Screenshot 2022-01-30 131919](https://user-images.githubusercontent.com/2837718/151697421-d4e5eb33-e7e5-4ec5-8265-4b9d73a07cb3.png)
+  
+Faceți ce modificări credeți că sunt necesare. Ideal, seturile de modificări (un set de modificări sunt schimbările înainte de a da "commit") au sens de sine stătător sau împreună cu altele, dar nu includ într-un singur set modificări care nu țin unele de altele (putem extrage și grupa mai multe seturi de modificări împreună, dar nu putem sparge o singură modificare în mai multe).
+  
+După ce terminați un set de modificări, în josul paginii, sub fișierul text, aveți o zonă cu "Commit changes". Ideal, folosiți prima căsuță pentru a descrie măcar sumar ce modificare se face și de ce. Pentru detalii, folosiți și a doua căsuță. Notele astea sunt super utile când, în viitor, căutăm de ce au fost modificate / adăugate articole.
+  
+Dacă aveți mai multe emailuri înregistrate în Github, alegeți cel de @scout.ro. 
+  
+Alegeți întotdeauna prima opțiune - Commit directly in the `numele-branchului-meu` branch pentru ca modificările să fie grupate corect. Asigurați-vă că sunteți pe branch-ul corect. Alegeți apoi "commit".
+  
+![Screenshot 2022-01-30 132539](https://user-images.githubusercontent.com/2837718/151697614-aaf8f586-c46d-4f27-bae1-e28a7d815ff7.png)
+
+Pentru a verifica cum s-a modificat per total branch-ul vostru față de referința din `main` după una sau mai multe modificări, puteți merge la Pull Requests / New Pull Request
+  
+![Screenshot 2022-01-30 132752](https://user-images.githubusercontent.com/2837718/151697697-2f774c86-6cee-47da-b7a9-2002090a6e1c.png)
+
+Și aici alegeți pentru base `main` și pentru `compare` branch-ul vostru. Implicit, veți vedea toate modificările. 
+
+Puteți să creați un Pull Request. După ce-l creați (și îi dați un nume, eventual), nu mai trebuie să intrați la New Pull Request, puteți să accesați comparația din lista de la pull requests.
+
+![Screenshot 2022-01-30 133047](https://user-images.githubusercontent.com/2837718/151697808-29809300-cb21-4c87-8016-e55243c43486.png)
+  
+## Cum se fac comentarii la modificări propuse
+  
+Din secțiunea Pull Requests, pentru oricare din pull requesturile existente, se selectează tab-ul "files", acolo unde se face comparația side-by-side
+
+![Screenshot 2022-02-09 110001](https://user-images.githubusercontent.com/2837718/153161267-18f7eb96-50c3-4f48-8a04-f0f6e47d23be.png)
+  
+Aici, dacă mergi cu mouse-ul deasupra oricărei linii care se schimbă (fie pe versiunea veche, sau pe cea nouă), butonul de + (sau -) devine un buton care poate fi apăsat pentru a lăsa un comentariu. Comentariile se salvează cu butonul "add single comment" (și NU cu cel verde "Start a review")
+  
+![Screenshot 2022-02-09 110110](https://user-images.githubusercontent.com/2837718/153161524-f3932abb-808d-4932-ba17-730a91c5c0ef.png)
+
+## Mulțumiri
+
+Inițiativa a pornit de la Andrei Avram. Check out his [repo](https://github.com/andreiavram/documente_oncr).
